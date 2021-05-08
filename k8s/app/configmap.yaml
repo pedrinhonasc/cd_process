@@ -20,7 +20,7 @@ data:
     BROADCAST_DRIVER=log
     CACHE_DRIVER=file
     QUEUE_CONNECTION=sync
-    SESSION_DRIVER=redis
+    SESSION_DRIVER=file
     SESSION_LIFETIME=120
 
     REDIS_HOST=redis-service
