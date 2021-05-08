@@ -1,5 +1,5 @@
 #!/bin/bash
 
-rm -rf vendor/
+# rm -rf vendor/
 php artisan config:cache
 php artisan migrate
